@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    justify content: center;
+    width: 800px;
+    height: 400px;
+    padding: 15px;
+    background-color: #cae7d3;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0);
+
+    margin: 50px auto;
+}
+
+
+
+.box-1 {
+    height: 400px;
+    width: 800px;
+    background: linear-gradient(#00bd56, #f9fd50);
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-1 img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 28%;
+}
+
+.samin {
+    width: 10px;
+    height: 10px;
+    border radious: 50px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.samin img {
+    width: 5%;
+    heigh: 25%;
+    filter: grayscale(.4);
+    transition: .3s;
+}
+
+.samin img:hover {
+    filter: grayscale(0);
+    transform: scale(1.3);
+}
+
+.hover-button {
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.0s, transform 0.0s;
+}
+
+.hover-button:hover {
+    background: linear-gradient(#fa4659, #e9007f);
+    transform: scale(1.1);
+}
+
+.box-2 {
+    height: 400px;
+
+    width: 800px;
+    background: linear-gradient(#9136f9, #fa4659);
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
